@@ -5,12 +5,16 @@ const express = require("express");
 const productRoutes = require("./routes/productRoutes");
 const orderRoutes = require("./routes/orderRoutes");
 const supplierRoutes = require("./routes/supplierRoutes");
-const path = require('path');
 
 const connectDB = require("./config/db");
 const cors = require('cors');
+const { Mongoose } = require("mongoose");
 
 connectDB();
+
+mongoose.connection.on('connected', () => {
+  console.log('Mongoose is connected!!')
+})
 
 const app = express();
 
@@ -30,7 +34,7 @@ app.use("/api/suppliers", supplierRoutes);
 if (process.env.NODE_ENV ==='production') {
   
   app.use(express.static('frontend/bulid'));
-  
+
 }
 
 const PORT = process.env.PORT || 5000;
