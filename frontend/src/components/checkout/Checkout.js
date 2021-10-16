@@ -13,6 +13,7 @@ import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import Grid from '@mui/material/Grid';
 import DeleteIcon from '@mui/icons-material/Delete';
+import AddIcon from '@mui/icons-material/Add';
 import {Link} from 'react-router-dom'
 
 
@@ -20,7 +21,7 @@ import {Link} from 'react-router-dom'
 const theme = createTheme();
 
 export default function Checkout(props) {
-  const {cartItem, removeItem, removeAllItems} = props;
+  const {cartItem, removeItem, removeAllItems, onAdd} = props;
 
   const total = cartItem.reduce((a,c) => a + c.UnitPrice * c.qty, 0)
   
@@ -54,6 +55,7 @@ export default function Checkout(props) {
         {cartItem.map((product) => (
           <ListItem  key={product._id} sx={{ py: 1, px: 0 }}>
             <ListItemText primary={product.ProductName} secondary={product.UnitPrice }/>
+            <Button onClick = {()=>onAdd(product)} variant="outlined" color="primary" sx={{mr: 5, ml: 5}}><AddIcon/></Button>
             <Typography variant="body2">{product.qty} </Typography>
             <Typography variant="subtitle1">  x {product.UnitPrice} $</Typography>
             <Button onClick = {(e) => {removeItem(product)}} variant="outlined" color="error" sx={{mr: 0, ml: 5}}><DeleteIcon/></Button>
@@ -85,15 +87,11 @@ export default function Checkout(props) {
           <Button onClick={(e) => {removeAllItems()}} variant="outlined" color="error" sx={{mr: 0, ml: 5}}>Remove all</Button>
         </ListItem>
       </List>
-      <Grid container spacing={2}>
-        <Grid item xs={12} sm={6}>
-        </Grid>
-      </Grid>
     </React.Fragment>
             {/* Review */}
             <Box sx={{ display: 'flex', justifyContent: 'flex-end' }}>
             <Link to="/address">
-              <Button sx={{ mt: 3, ml: 1, }} variant="contained" textDecoration="none">
+              <Button sx={{ mt: 3, ml: 1, }} variant="contained">
                 Next
               </Button>
             </Link>

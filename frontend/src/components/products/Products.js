@@ -19,16 +19,16 @@ const Products = (props) => {
 
   const {Products, onAddItem} = props;
   const classes = useStyles();
+  console.log(Products);
   const allProducts = Products.map((product) => {
 
-    
-
+  
     return (
       <Grid key={product._id} item xs={12} sm={6} md={4}>
         <Card className={classes.card}>
           <CardMedia
             className={classes.cardMedia}
-            image="https://blogs.biomedcentral.com/on-medicine/wp-content/uploads/sites/6/2019/09/iStock-1131794876.t5d482e40.m800.xtDADj9SvTVFjzuNeGuNUUGY4tm5d6UGU5tkKM0s3iPk-620x342.jpg"
+            image={product.imgUrl}
             title="Random image"
           />
           <CardContent className={classes.cardContent} sx={{paddingBottom:"0px"}}>

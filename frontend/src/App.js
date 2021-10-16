@@ -18,6 +18,7 @@ function App () {
   const [suppliers, setSuppliers] = useState([]);
   const [cartItem, setCartItem] = useState([]);
 
+ console.log(products);
   const onAdd = (product) => { 
     const exist = cartItem.find(x => x._id === product._id);
     if(exist) {
@@ -36,12 +37,12 @@ const removeItem = (product) => {
   }
 }
 
+
 const removeAllItems = () => {
     setCartItem([])
 }
 
 const cartNum = cartItem.length;
-
 
 const addNewOrderToState = (order) => {
   setOrders([order,...orders])

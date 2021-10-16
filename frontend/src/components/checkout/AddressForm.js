@@ -9,10 +9,14 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import { createTheme, ThemeProvider,TextField } from '@mui/material';
 import Grid from '@mui/material/Grid';
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
+import useStyles from "./stylesCheckout";
+
 
 const theme = createTheme();
 function AddressForm(props) {
+
+  const classes = useStyles();
 
   const [newOrder, setNewOrder] = useState({_id: Math.floor(Math.random()* 100) ,CustomerID: "", ShipAddress:"", ShipCity:"", OrderDate:new Date().toLocaleDateString()});
 
@@ -109,16 +113,16 @@ function AddressForm(props) {
       </Grid>
             {/* Review */}
             <Box sx={{ display: 'flex', justifyContent: 'flex-end' }}>
-            <Link to="/shop">
-              <Button sx={{ mt: 3, ml: 1, }} variant="outlined" textDecoration="none">
-                Back
+
+              <Button sx={{ mt: 3, ml: 1}} variant="outlined" >
+                <NavLink className={classes.navLink2} to="shop">Back</NavLink>
               </Button>
-            </Link>
-            <Link to="/address">
+
               <Button onClick={addNewOrder} sx={{ mt: 3, ml: 1, }} variant="contained" textDecoration="none">
-                Order
+              <NavLink className={classes.navLink1} to="orders">Order</NavLink>
+                
               </Button>
-            </Link>
+            
             
                 </Box>
           </React.Fragment>
