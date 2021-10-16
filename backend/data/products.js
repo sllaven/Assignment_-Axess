@@ -10,7 +10,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 10,
     Discontinued: 0,
-    imgUrl:"https://cdn.cnn.com/cnnnext/dam/assets/200917151634-national-cheeseburger-day-2020-stock-large-169.jpg"
+    imgUrl:
+      "https://cdn.cnn.com/cnnnext/dam/assets/200917151634-national-cheeseburger-day-2020-stock-large-169.jpg",
   },
   {
     ProductID: 2,
@@ -23,7 +24,8 @@ const Product = [
     UnitsOnOrder: 40,
     ReorderLevel: 25,
     Discontinued: 0,
-    imgUrl:"https://i1.wp.com/3talheres.com.br/wp-content/uploads/2020/04/Pizza-Hut-lan%C3%A7a-nova-promo%C3%A7%C3%A3o-de-pizza-em-dobro.jpg?fit=850%2C600&ssl=1"
+    imgUrl:
+      "https://i1.wp.com/3talheres.com.br/wp-content/uploads/2020/04/Pizza-Hut-lan%C3%A7a-nova-promo%C3%A7%C3%A3o-de-pizza-em-dobro.jpg?fit=850%2C600&ssl=1",
   },
   {
     ProductID: 3,
@@ -36,7 +38,8 @@ const Product = [
     UnitsOnOrder: 70,
     ReorderLevel: 25,
     Discontinued: 0,
-    imgUrl:"https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Crispy-Fried-Chicken_EXPS_FRBZ19_6445_C01_31_3b.jpg"
+    imgUrl:
+      "https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Crispy-Fried-Chicken_EXPS_FRBZ19_6445_C01_31_3b.jpg",
   },
   {
     ProductID: 4,
@@ -49,7 +52,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 0,
     Discontinued: 0,
-    imgUrl:"https://www.seriouseats.com/thmb/GSqpVkulyUZu-D6sPijmbFV_f4s=/1500x1125/filters:fill(auto,1)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2020__03__20200224-carretteira-pasta-vicky-wasik-21-ffe68515b25f4b348cbde845a59d6a62.jpg"
+    imgUrl:
+      "https://www.seriouseats.com/thmb/GSqpVkulyUZu-D6sPijmbFV_f4s=/1500x1125/filters:fill(auto,1)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2020__03__20200224-carretteira-pasta-vicky-wasik-21-ffe68515b25f4b348cbde845a59d6a62.jpg",
   },
   {
     ProductID: 5,
@@ -62,7 +66,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 0,
     Discontinued: 1,
-    imgUrl:"https://assets.bonappetit.com/photos/5f48ef0f683772f4cb97e816/6:9/w_1312,h_1968,c_limit/Basically-ZucchiniPasta05.jpg"
+    imgUrl:
+      "https://assets.bonappetit.com/photos/5f48ef0f683772f4cb97e816/6:9/w_1312,h_1968,c_limit/Basically-ZucchiniPasta05.jpg",
   },
   {
     ProductID: 6,
@@ -75,7 +80,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 25,
     Discontinued: 0,
-    imgUrl:"https://static.parade.com/wp-content/uploads/2020/06/Best-pasta-recipes.jpg"
+    imgUrl:
+      "https://static.parade.com/wp-content/uploads/2020/06/Best-pasta-recipes.jpg",
   },
   {
     ProductID: 7,
@@ -88,7 +94,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 10,
     Discontinued: 0,
-    imgUrl:"https://www.cookingclassy.com/wp-content/uploads/2019/07/steak-marinade-12.jpg"
+    imgUrl:
+      "https://www.cookingclassy.com/wp-content/uploads/2019/07/steak-marinade-12.jpg",
   },
   {
     ProductID: 8,
@@ -101,7 +108,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 0,
     Discontinued: 0,
-    imgUrl:"https://www.glaslaktasa.com/wp-content/uploads/2018/04/biftek-2.jpg"
+    imgUrl:
+      "https://www.glaslaktasa.com/wp-content/uploads/2018/04/biftek-2.jpg",
   },
   {
     ProductID: 9,
@@ -114,7 +122,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 0,
     Discontinued: 1,
-    imgUrl:"https://static.toiimg.com/thumb/53784736.cms?width=1200&height=900"
+    imgUrl:
+      "https://static.toiimg.com/thumb/53784736.cms?width=1200&height=900",
   },
   {
     ProductID: 10,
@@ -127,7 +136,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 0,
     Discontinued: 0,
-    imgUrl:"https://static.fanpage.it/wp-content/uploads/sites/22/2019/06/Breakfast-wraps-8-638x425.jpg"
+    imgUrl:
+      "https://static.fanpage.it/wp-content/uploads/sites/22/2019/06/Breakfast-wraps-8-638x425.jpg",
   },
   {
     ProductID: 11,
@@ -140,7 +150,7 @@ const Product = [
     UnitsOnOrder: 30,
     ReorderLevel: 30,
     Discontinued: 0,
-    imgUrl:"https://www.vecernji.hr/media/img/a4/e1/6004585abd83846558fe.jpeg"
+    imgUrl: "https://www.vecernji.hr/media/img/a4/e1/6004585abd83846558fe.jpeg",
   },
   {
     ProductID: 12,
@@ -153,7 +163,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 0,
     Discontinued: 0,
-    imgUrl:"https://kooglana.hr/wp-content/uploads/2020/12/Punjena-vjesalica.jpg"
+    imgUrl:
+      "https://kooglana.hr/wp-content/uploads/2020/12/Punjena-vjesalica.jpg",
   },
   {
     ProductID: 13,
@@ -166,7 +177,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 5,
     Discontinued: 0,
-    imgUrl:"https://podravkaiovariations.azureedge.net/dce1f01e-63c3-11eb-8395-0242ac12007c/v/f2b1f6a6-64bc-11eb-b6c2-0242ac130010/1024x768-f2b21802-64bc-11eb-a115-0242ac130010.webp"
+    imgUrl:
+      "https://podravkaiovariations.azureedge.net/dce1f01e-63c3-11eb-8395-0242ac12007c/v/f2b1f6a6-64bc-11eb-b6c2-0242ac130010/1024x768-f2b21802-64bc-11eb-a115-0242ac130010.webp",
   },
   {
     ProductID: 14,
@@ -179,7 +191,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 0,
     Discontinued: 0,
-    imgUrl:"https://cdn.cnn.com/cnnnext/dam/assets/200917151634-national-cheeseburger-day-2020-stock-large-169.jpg"
+    imgUrl:
+      "https://cdn.cnn.com/cnnnext/dam/assets/200917151634-national-cheeseburger-day-2020-stock-large-169.jpg",
   },
   {
     ProductID: 15,
@@ -192,7 +205,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 5,
     Discontinued: 0,
-    imgUrl:"http://zdravakuhinja.com/wp-content/uploads/2016/09/zdrava-pljeskavica-u-lepinji.jpg"
+    imgUrl:
+      "http://zdravakuhinja.com/wp-content/uploads/2016/09/zdrava-pljeskavica-u-lepinji.jpg",
   },
   {
     ProductID: 16,
@@ -205,7 +219,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 10,
     Discontinued: 0,
-    imgUrl:"https://podravkaiovariations.azureedge.net/b6803e40-638b-11eb-b365-0242ac12001e/v/f2b1f6a6-64bc-11eb-b6c2-0242ac130010/1024x768-f2b21802-64bc-11eb-a115-0242ac130010.webp"
+    imgUrl:
+      "https://podravkaiovariations.azureedge.net/b6803e40-638b-11eb-b365-0242ac12001e/v/f2b1f6a6-64bc-11eb-b6c2-0242ac130010/1024x768-f2b21802-64bc-11eb-a115-0242ac130010.webp",
   },
   {
     ProductID: 17,
@@ -218,7 +233,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 0,
     Discontinued: 1,
-    imgUrl:"https://image.dnevnik.hr/media/images/920x695/Nov2017/61431166-krumpirici-pomfrit.jpg"
+    imgUrl:
+      "https://image.dnevnik.hr/media/images/920x695/Nov2017/61431166-krumpirici-pomfrit.jpg",
   },
   {
     ProductID: 18,
@@ -231,7 +247,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 0,
     Discontinued: 0,
-    imgUrl:"https://image.dnevnik.hr/media/images/920x695/Feb2018/61460046-jaje-na-oko.jpg"
+    imgUrl:
+      "https://image.dnevnik.hr/media/images/920x695/Feb2018/61460046-jaje-na-oko.jpg",
   },
   {
     ProductID: 19,
@@ -244,7 +261,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 5,
     Discontinued: 0,
-    imgUrl:"https://static.jutarnji.hr/images/live-multimedia/binary/2016/5/23/14/iStock_000060114140_Large.jpg"
+    imgUrl:
+      "https://static.jutarnji.hr/images/live-multimedia/binary/2016/5/23/14/iStock_000060114140_Large.jpg",
   },
   {
     ProductID: 20,
@@ -257,7 +275,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 0,
     Discontinued: 0,
-    imgUrl:"https://podravkaiovariations.azureedge.net/f29b0576-631e-11eb-a9dc-0242ac12004c/v/f2b1f6a6-64bc-11eb-b6c2-0242ac130010/1024x768-f2b21802-64bc-11eb-a115-0242ac130010.webp"
+    imgUrl:
+      "https://podravkaiovariations.azureedge.net/f29b0576-631e-11eb-a9dc-0242ac12004c/v/f2b1f6a6-64bc-11eb-b6c2-0242ac130010/1024x768-f2b21802-64bc-11eb-a115-0242ac130010.webp",
   },
   {
     ProductID: 21,
@@ -270,7 +289,8 @@ const Product = [
     UnitsOnOrder: 40,
     ReorderLevel: 5,
     Discontinued: 0,
-    imgUrl:"https://simply-delicious-food.com/wp-content/uploads/2020/07/Easy-salad-sandwiches-with-herb-mayo-5.jpg"
+    imgUrl:
+      "https://simply-delicious-food.com/wp-content/uploads/2020/07/Easy-salad-sandwiches-with-herb-mayo-5.jpg",
   },
   {
     ProductID: 22,
@@ -283,7 +303,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 25,
     Discontinued: 0,
-    imgUrl:"https://cdn.cnn.com/cnnnext/dam/assets/200917151634-national-cheeseburger-day-2020-stock-large-169.jpg"
+    imgUrl:
+      "https://cdn.cnn.com/cnnnext/dam/assets/200917151634-national-cheeseburger-day-2020-stock-large-169.jpg",
   },
   {
     ProductID: 23,
@@ -296,7 +317,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 25,
     Discontinued: 0,
-    imgUrl:"https://i1.wp.com/3talheres.com.br/wp-content/uploads/2020/04/Pizza-Hut-lan%C3%A7a-nova-promo%C3%A7%C3%A3o-de-pizza-em-dobro.jpg?fit=850%2C600&ssl=1"
+    imgUrl:
+      "https://i1.wp.com/3talheres.com.br/wp-content/uploads/2020/04/Pizza-Hut-lan%C3%A7a-nova-promo%C3%A7%C3%A3o-de-pizza-em-dobro.jpg?fit=850%2C600&ssl=1",
   },
   {
     ProductID: 24,
@@ -309,7 +331,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 0,
     Discontinued: 1,
-    imgUrl:"https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Crispy-Fried-Chicken_EXPS_FRBZ19_6445_C01_31_3b.jpg"
+    imgUrl:
+      "https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Crispy-Fried-Chicken_EXPS_FRBZ19_6445_C01_31_3b.jpg",
   },
   {
     ProductID: 25,
@@ -322,7 +345,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 30,
     Discontinued: 0,
-    imgUrl:"https://www.seriouseats.com/thmb/GSqpVkulyUZu-D6sPijmbFV_f4s=/1500x1125/filters:fill(auto,1)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2020__03__20200224-carretteira-pasta-vicky-wasik-21-ffe68515b25f4b348cbde845a59d6a62.jpg"
+    imgUrl:
+      "https://www.seriouseats.com/thmb/GSqpVkulyUZu-D6sPijmbFV_f4s=/1500x1125/filters:fill(auto,1)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2020__03__20200224-carretteira-pasta-vicky-wasik-21-ffe68515b25f4b348cbde845a59d6a62.jpg",
   },
   {
     ProductID: 26,
@@ -335,7 +359,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 0,
     Discontinued: 0,
-    imgUrl:"https://assets.bonappetit.com/photos/5f48ef0f683772f4cb97e816/6:9/w_1312,h_1968,c_limit/Basically-ZucchiniPasta05.jpg"
+    imgUrl:
+      "https://assets.bonappetit.com/photos/5f48ef0f683772f4cb97e816/6:9/w_1312,h_1968,c_limit/Basically-ZucchiniPasta05.jpg",
   },
   {
     ProductID: 27,
@@ -348,7 +373,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 30,
     Discontinued: 0,
-    imgUrl:"https://static.parade.com/wp-content/uploads/2020/06/Best-pasta-recipes.jpg"
+    imgUrl:
+      "https://static.parade.com/wp-content/uploads/2020/06/Best-pasta-recipes.jpg",
   },
   {
     ProductID: 28,
@@ -361,7 +387,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 0,
     Discontinued: 1,
-    imgUrl:"https://www.cookingclassy.com/wp-content/uploads/2019/07/steak-marinade-12.jpg"
+    imgUrl:
+      "https://www.cookingclassy.com/wp-content/uploads/2019/07/steak-marinade-12.jpg",
   },
   {
     ProductID: 29,
@@ -374,7 +401,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 0,
     Discontinued: 1,
-    imgUrl:"https://www.glaslaktasa.com/wp-content/uploads/2018/04/biftek-2.jpg"
+    imgUrl:
+      "https://www.glaslaktasa.com/wp-content/uploads/2018/04/biftek-2.jpg",
   },
   {
     ProductID: 30,
@@ -387,7 +415,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 15,
     Discontinued: 0,
-    imgUrl:"https://static.toiimg.com/thumb/53784736.cms?width=1200&height=900"
+    imgUrl:
+      "https://static.toiimg.com/thumb/53784736.cms?width=1200&height=900",
   },
   {
     ProductID: 31,
@@ -400,7 +429,8 @@ const Product = [
     UnitsOnOrder: 70,
     ReorderLevel: 20,
     Discontinued: 0,
-    imgUrl:"https://static.fanpage.it/wp-content/uploads/sites/22/2019/06/Breakfast-wraps-8-638x425.jpg"
+    imgUrl:
+      "https://static.fanpage.it/wp-content/uploads/sites/22/2019/06/Breakfast-wraps-8-638x425.jpg",
   },
   {
     ProductID: 32,
@@ -413,7 +443,7 @@ const Product = [
     UnitsOnOrder: 40,
     ReorderLevel: 25,
     Discontinued: 0,
-    imgUrl:"https://www.vecernji.hr/media/img/a4/e1/6004585abd83846558fe.jpeg"
+    imgUrl: "https://www.vecernji.hr/media/img/a4/e1/6004585abd83846558fe.jpeg",
   },
   {
     ProductID: 33,
@@ -426,7 +456,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 20,
     Discontinued: 0,
-    imgUrl:"https://kooglana.hr/wp-content/uploads/2020/12/Punjena-vjesalica.jpg"
+    imgUrl:
+      "https://kooglana.hr/wp-content/uploads/2020/12/Punjena-vjesalica.jpg",
   },
   {
     ProductID: 34,
@@ -439,7 +470,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 15,
     Discontinued: 0,
-    imgUrl:"https://podravkaiovariations.azureedge.net/dce1f01e-63c3-11eb-8395-0242ac12007c/v/f2b1f6a6-64bc-11eb-b6c2-0242ac130010/1024x768-f2b21802-64bc-11eb-a115-0242ac130010.webp"
+    imgUrl:
+      "https://podravkaiovariations.azureedge.net/dce1f01e-63c3-11eb-8395-0242ac12007c/v/f2b1f6a6-64bc-11eb-b6c2-0242ac130010/1024x768-f2b21802-64bc-11eb-a115-0242ac130010.webp",
   },
   {
     ProductID: 35,
@@ -452,7 +484,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 15,
     Discontinued: 0,
-    imgUrl:"http://zdravakuhinja.com/wp-content/uploads/2016/09/zdrava-pljeskavica-u-lepinji.jpg"
+    imgUrl:
+      "http://zdravakuhinja.com/wp-content/uploads/2016/09/zdrava-pljeskavica-u-lepinji.jpg",
   },
   {
     ProductID: 36,
@@ -465,7 +498,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 20,
     Discontinued: 0,
-    imgUrl:"https://podravkaiovariations.azureedge.net/b6803e40-638b-11eb-b365-0242ac12001e/v/f2b1f6a6-64bc-11eb-b6c2-0242ac130010/1024x768-f2b21802-64bc-11eb-a115-0242ac130010.webp"
+    imgUrl:
+      "https://podravkaiovariations.azureedge.net/b6803e40-638b-11eb-b365-0242ac12001e/v/f2b1f6a6-64bc-11eb-b6c2-0242ac130010/1024x768-f2b21802-64bc-11eb-a115-0242ac130010.webp",
   },
   {
     ProductID: 37,
@@ -478,7 +512,8 @@ const Product = [
     UnitsOnOrder: 50,
     ReorderLevel: 25,
     Discontinued: 0,
-    imgUrl:"https://image.dnevnik.hr/media/images/920x695/Nov2017/61431166-krumpirici-pomfrit.jpg"
+    imgUrl:
+      "https://image.dnevnik.hr/media/images/920x695/Nov2017/61431166-krumpirici-pomfrit.jpg",
   },
   {
     ProductID: 38,
@@ -491,7 +526,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 15,
     Discontinued: 0,
-    imgUrl:"https://image.dnevnik.hr/media/images/920x695/Feb2018/61460046-jaje-na-oko.jpg"
+    imgUrl:
+      "https://image.dnevnik.hr/media/images/920x695/Feb2018/61460046-jaje-na-oko.jpg",
   },
   {
     ProductID: 39,
@@ -504,7 +540,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 5,
     Discontinued: 0,
-    imgUrl:"https://static.jutarnji.hr/images/live-multimedia/binary/2016/5/23/14/iStock_000060114140_Large.jpg"
+    imgUrl:
+      "https://static.jutarnji.hr/images/live-multimedia/binary/2016/5/23/14/iStock_000060114140_Large.jpg",
   },
   {
     ProductID: 40,
@@ -517,7 +554,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 30,
     Discontinued: 0,
-    imgUrl:"https://cdn.cnn.com/cnnnext/dam/assets/200917151634-national-cheeseburger-day-2020-stock-large-169.jpg"
+    imgUrl:
+      "https://cdn.cnn.com/cnnnext/dam/assets/200917151634-national-cheeseburger-day-2020-stock-large-169.jpg",
   },
   {
     ProductID: 41,
@@ -530,7 +568,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 10,
     Discontinued: 0,
-    imgUrl:"https://podravkaiovariations.azureedge.net/f29b0576-631e-11eb-a9dc-0242ac12004c/v/f2b1f6a6-64bc-11eb-b6c2-0242ac130010/1024x768-f2b21802-64bc-11eb-a115-0242ac130010.webp"
+    imgUrl:
+      "https://podravkaiovariations.azureedge.net/f29b0576-631e-11eb-a9dc-0242ac12004c/v/f2b1f6a6-64bc-11eb-b6c2-0242ac130010/1024x768-f2b21802-64bc-11eb-a115-0242ac130010.webp",
   },
   {
     ProductID: 42,
@@ -543,7 +582,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 0,
     Discontinued: 1,
-    imgUrl:"https://simply-delicious-food.com/wp-content/uploads/2020/07/Easy-salad-sandwiches-with-herb-mayo-5.jpg"
+    imgUrl:
+      "https://simply-delicious-food.com/wp-content/uploads/2020/07/Easy-salad-sandwiches-with-herb-mayo-5.jpg",
   },
   {
     ProductID: 43,
@@ -556,7 +596,8 @@ const Product = [
     UnitsOnOrder: 10,
     ReorderLevel: 25,
     Discontinued: 0,
-    imgUrl:"https://cdn.cnn.com/cnnnext/dam/assets/200917151634-national-cheeseburger-day-2020-stock-large-169.jpg"
+    imgUrl:
+      "https://cdn.cnn.com/cnnnext/dam/assets/200917151634-national-cheeseburger-day-2020-stock-large-169.jpg",
   },
   {
     ProductID: 44,
@@ -569,7 +610,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 15,
     Discontinued: 0,
-    imgUrl:"https://i1.wp.com/3talheres.com.br/wp-content/uploads/2020/04/Pizza-Hut-lan%C3%A7a-nova-promo%C3%A7%C3%A3o-de-pizza-em-dobro.jpg?fit=850%2C600&ssl=1"
+    imgUrl:
+      "https://i1.wp.com/3talheres.com.br/wp-content/uploads/2020/04/Pizza-Hut-lan%C3%A7a-nova-promo%C3%A7%C3%A3o-de-pizza-em-dobro.jpg?fit=850%2C600&ssl=1",
   },
   {
     ProductID: 45,
@@ -582,7 +624,8 @@ const Product = [
     UnitsOnOrder: 70,
     ReorderLevel: 15,
     Discontinued: 0,
-    imgUrl:"https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Crispy-Fried-Chicken_EXPS_FRBZ19_6445_C01_31_3b.jpg"
+    imgUrl:
+      "https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Crispy-Fried-Chicken_EXPS_FRBZ19_6445_C01_31_3b.jpg",
   },
   {
     ProductID: 46,
@@ -595,7 +638,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 0,
     Discontinued: 0,
-    imgUrl:"https://www.seriouseats.com/thmb/GSqpVkulyUZu-D6sPijmbFV_f4s=/1500x1125/filters:fill(auto,1)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2020__03__20200224-carretteira-pasta-vicky-wasik-21-ffe68515b25f4b348cbde845a59d6a62.jpg"
+    imgUrl:
+      "https://www.seriouseats.com/thmb/GSqpVkulyUZu-D6sPijmbFV_f4s=/1500x1125/filters:fill(auto,1)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2020__03__20200224-carretteira-pasta-vicky-wasik-21-ffe68515b25f4b348cbde845a59d6a62.jpg",
   },
   {
     ProductID: 47,
@@ -608,7 +652,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 0,
     Discontinued: 0,
-    imgUrl:"https://assets.bonappetit.com/photos/5f48ef0f683772f4cb97e816/6:9/w_1312,h_1968,c_limit/Basically-ZucchiniPasta05.jpg"
+    imgUrl:
+      "https://assets.bonappetit.com/photos/5f48ef0f683772f4cb97e816/6:9/w_1312,h_1968,c_limit/Basically-ZucchiniPasta05.jpg",
   },
   {
     ProductID: 48,
@@ -621,7 +666,8 @@ const Product = [
     UnitsOnOrder: 70,
     ReorderLevel: 25,
     Discontinued: 0,
-    imgUrl:"https://static.parade.com/wp-content/uploads/2020/06/Best-pasta-recipes.jpg"
+    imgUrl:
+      "https://static.parade.com/wp-content/uploads/2020/06/Best-pasta-recipes.jpg",
   },
   {
     ProductID: 49,
@@ -634,7 +680,8 @@ const Product = [
     UnitsOnOrder: 60,
     ReorderLevel: 15,
     Discontinued: 0,
-    imgUrl:"https://www.cookingclassy.com/wp-content/uploads/2019/07/steak-marinade-12.jpg"
+    imgUrl:
+      "https://www.cookingclassy.com/wp-content/uploads/2019/07/steak-marinade-12.jpg",
   },
   {
     ProductID: 50,
@@ -647,7 +694,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 30,
     Discontinued: 0,
-    imgUrl:"https://www.glaslaktasa.com/wp-content/uploads/2018/04/biftek-2.jpg"
+    imgUrl:
+      "https://www.glaslaktasa.com/wp-content/uploads/2018/04/biftek-2.jpg",
   },
   {
     ProductID: 51,
@@ -660,7 +708,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 10,
     Discontinued: 0,
-    imgUrl:"https://static.toiimg.com/thumb/53784736.cms?width=1200&height=900"
+    imgUrl:
+      "https://static.toiimg.com/thumb/53784736.cms?width=1200&height=900",
   },
   {
     ProductID: 52,
@@ -673,7 +722,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 25,
     Discontinued: 0,
-    imgUrl:"https://static.fanpage.it/wp-content/uploads/sites/22/2019/06/Breakfast-wraps-8-638x425.jpg"
+    imgUrl:
+      "https://static.fanpage.it/wp-content/uploads/sites/22/2019/06/Breakfast-wraps-8-638x425.jpg",
   },
   {
     ProductID: 53,
@@ -686,7 +736,7 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 0,
     Discontinued: 1,
-    imgUrl:"https://www.vecernji.hr/media/img/a4/e1/6004585abd83846558fe.jpeg"
+    imgUrl: "https://www.vecernji.hr/media/img/a4/e1/6004585abd83846558fe.jpeg",
   },
   {
     ProductID: 54,
@@ -699,7 +749,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 10,
     Discontinued: 0,
-    imgUrl:"https://kooglana.hr/wp-content/uploads/2020/12/Punjena-vjesalica.jpg"
+    imgUrl:
+      "https://kooglana.hr/wp-content/uploads/2020/12/Punjena-vjesalica.jpg",
   },
   {
     ProductID: 55,
@@ -712,7 +763,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 20,
     Discontinued: 0,
-    imgUrl:"https://podravkaiovariations.azureedge.net/dce1f01e-63c3-11eb-8395-0242ac12007c/v/f2b1f6a6-64bc-11eb-b6c2-0242ac130010/1024x768-f2b21802-64bc-11eb-a115-0242ac130010.webp"
+    imgUrl:
+      "https://podravkaiovariations.azureedge.net/dce1f01e-63c3-11eb-8395-0242ac12007c/v/f2b1f6a6-64bc-11eb-b6c2-0242ac130010/1024x768-f2b21802-64bc-11eb-a115-0242ac130010.webp",
   },
   {
     ProductID: 56,
@@ -725,7 +777,8 @@ const Product = [
     UnitsOnOrder: 10,
     ReorderLevel: 30,
     Discontinued: 0,
-    imgUrl:"http://zdravakuhinja.com/wp-content/uploads/2016/09/zdrava-pljeskavica-u-lepinji.jpg"
+    imgUrl:
+      "http://zdravakuhinja.com/wp-content/uploads/2016/09/zdrava-pljeskavica-u-lepinji.jpg",
   },
   {
     ProductID: 57,
@@ -738,7 +791,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 20,
     Discontinued: 0,
-    imgUrl:"https://podravkaiovariations.azureedge.net/b6803e40-638b-11eb-b365-0242ac12001e/v/f2b1f6a6-64bc-11eb-b6c2-0242ac130010/1024x768-f2b21802-64bc-11eb-a115-0242ac130010.webp"
+    imgUrl:
+      "https://podravkaiovariations.azureedge.net/b6803e40-638b-11eb-b365-0242ac12001e/v/f2b1f6a6-64bc-11eb-b6c2-0242ac130010/1024x768-f2b21802-64bc-11eb-a115-0242ac130010.webp",
   },
   {
     ProductID: 58,
@@ -751,7 +805,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 20,
     Discontinued: 0,
-    imgUrl:"https://cdn.cnn.com/cnnnext/dam/assets/200917151634-national-cheeseburger-day-2020-stock-large-169.jpg"
+    imgUrl:
+      "https://cdn.cnn.com/cnnnext/dam/assets/200917151634-national-cheeseburger-day-2020-stock-large-169.jpg",
   },
   {
     ProductID: 59,
@@ -764,7 +819,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 0,
     Discontinued: 0,
-    imgUrl:"https://image.dnevnik.hr/media/images/920x695/Nov2017/61431166-krumpirici-pomfrit.jpg"
+    imgUrl:
+      "https://image.dnevnik.hr/media/images/920x695/Nov2017/61431166-krumpirici-pomfrit.jpg",
   },
   {
     ProductID: 60,
@@ -777,7 +833,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 0,
     Discontinued: 0,
-    imgUrl:"https://image.dnevnik.hr/media/images/920x695/Feb2018/61460046-jaje-na-oko.jpg"
+    imgUrl:
+      "https://image.dnevnik.hr/media/images/920x695/Feb2018/61460046-jaje-na-oko.jpg",
   },
   {
     ProductID: 61,
@@ -790,7 +847,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 25,
     Discontinued: 0,
-    imgUrl:"https://static.jutarnji.hr/images/live-multimedia/binary/2016/5/23/14/iStock_000060114140_Large.jpg"
+    imgUrl:
+      "https://static.jutarnji.hr/images/live-multimedia/binary/2016/5/23/14/iStock_000060114140_Large.jpg",
   },
   {
     ProductID: 62,
@@ -803,7 +861,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 0,
     Discontinued: 0,
-    imgUrl:"https://podravkaiovariations.azureedge.net/f29b0576-631e-11eb-a9dc-0242ac12004c/v/f2b1f6a6-64bc-11eb-b6c2-0242ac130010/1024x768-f2b21802-64bc-11eb-a115-0242ac130010.webp"
+    imgUrl:
+      "https://podravkaiovariations.azureedge.net/f29b0576-631e-11eb-a9dc-0242ac12004c/v/f2b1f6a6-64bc-11eb-b6c2-0242ac130010/1024x768-f2b21802-64bc-11eb-a115-0242ac130010.webp",
   },
   {
     ProductID: 63,
@@ -816,7 +875,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 5,
     Discontinued: 0,
-    imgUrl:"https://simply-delicious-food.com/wp-content/uploads/2020/07/Easy-salad-sandwiches-with-herb-mayo-5.jpg"
+    imgUrl:
+      "https://simply-delicious-food.com/wp-content/uploads/2020/07/Easy-salad-sandwiches-with-herb-mayo-5.jpg",
   },
   {
     ProductID: 64,
@@ -829,7 +889,8 @@ const Product = [
     UnitsOnOrder: 80,
     ReorderLevel: 30,
     Discontinued: 0,
-    imgUrl:"https://cdn.cnn.com/cnnnext/dam/assets/200917151634-national-cheeseburger-day-2020-stock-large-169.jpg"
+    imgUrl:
+      "https://cdn.cnn.com/cnnnext/dam/assets/200917151634-national-cheeseburger-day-2020-stock-large-169.jpg",
   },
   {
     ProductID: 65,
@@ -842,7 +903,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 0,
     Discontinued: 0,
-    imgUrl:"https://i1.wp.com/3talheres.com.br/wp-content/uploads/2020/04/Pizza-Hut-lan%C3%A7a-nova-promo%C3%A7%C3%A3o-de-pizza-em-dobro.jpg?fit=850%2C600&ssl=1"
+    imgUrl:
+      "https://i1.wp.com/3talheres.com.br/wp-content/uploads/2020/04/Pizza-Hut-lan%C3%A7a-nova-promo%C3%A7%C3%A3o-de-pizza-em-dobro.jpg?fit=850%2C600&ssl=1",
   },
   {
     ProductID: 66,
@@ -855,7 +917,8 @@ const Product = [
     UnitsOnOrder: 100,
     ReorderLevel: 20,
     Discontinued: 0,
-    imgUrl:"https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Crispy-Fried-Chicken_EXPS_FRBZ19_6445_C01_31_3b.jpg"
+    imgUrl:
+      "https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Crispy-Fried-Chicken_EXPS_FRBZ19_6445_C01_31_3b.jpg",
   },
   {
     ProductID: 67,
@@ -868,7 +931,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 10,
     Discontinued: 0,
-    imgUrl:"https://www.seriouseats.com/thmb/GSqpVkulyUZu-D6sPijmbFV_f4s=/1500x1125/filters:fill(auto,1)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2020__03__20200224-carretteira-pasta-vicky-wasik-21-ffe68515b25f4b348cbde845a59d6a62.jpg"
+    imgUrl:
+      "https://www.seriouseats.com/thmb/GSqpVkulyUZu-D6sPijmbFV_f4s=/1500x1125/filters:fill(auto,1)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2020__03__20200224-carretteira-pasta-vicky-wasik-21-ffe68515b25f4b348cbde845a59d6a62.jpg",
   },
   {
     ProductID: 68,
@@ -881,7 +945,8 @@ const Product = [
     UnitsOnOrder: 10,
     ReorderLevel: 15,
     Discontinued: 0,
-    imgUrl:"https://assets.bonappetit.com/photos/5f48ef0f683772f4cb97e816/6:9/w_1312,h_1968,c_limit/Basically-ZucchiniPasta05.jpg"
+    imgUrl:
+      "https://assets.bonappetit.com/photos/5f48ef0f683772f4cb97e816/6:9/w_1312,h_1968,c_limit/Basically-ZucchiniPasta05.jpg",
   },
   {
     ProductID: 69,
@@ -894,7 +959,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 15,
     Discontinued: 0,
-    imgUrl:"https://static.parade.com/wp-content/uploads/2020/06/Best-pasta-recipes.jpg"
+    imgUrl:
+      "https://static.parade.com/wp-content/uploads/2020/06/Best-pasta-recipes.jpg",
   },
   {
     ProductID: 70,
@@ -907,7 +973,8 @@ const Product = [
     UnitsOnOrder: 10,
     ReorderLevel: 30,
     Discontinued: 0,
-    imgUrl:"https://www.cookingclassy.com/wp-content/uploads/2019/07/steak-marinade-12.jpg"
+    imgUrl:
+      "https://www.cookingclassy.com/wp-content/uploads/2019/07/steak-marinade-12.jpg",
   },
   {
     ProductID: 71,
@@ -920,7 +987,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 0,
     Discontinued: 0,
-    imgUrl:"https://www.glaslaktasa.com/wp-content/uploads/2018/04/biftek-2.jpg"
+    imgUrl:
+      "https://www.glaslaktasa.com/wp-content/uploads/2018/04/biftek-2.jpg",
   },
   {
     ProductID: 72,
@@ -933,7 +1001,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 0,
     Discontinued: 0,
-    imgUrl:"https://static.toiimg.com/thumb/53784736.cms?width=1200&height=900"
+    imgUrl:
+      "https://static.toiimg.com/thumb/53784736.cms?width=1200&height=900",
   },
   {
     ProductID: 73,
@@ -946,7 +1015,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 5,
     Discontinued: 0,
-    imgUrl:"https://static.fanpage.it/wp-content/uploads/sites/22/2019/06/Breakfast-wraps-8-638x425.jpg"
+    imgUrl:
+      "https://static.fanpage.it/wp-content/uploads/sites/22/2019/06/Breakfast-wraps-8-638x425.jpg",
   },
   {
     ProductID: 74,
@@ -959,7 +1029,7 @@ const Product = [
     UnitsOnOrder: 20,
     ReorderLevel: 5,
     Discontinued: 0,
-    imgUrl:"https://www.vecernji.hr/media/img/a4/e1/6004585abd83846558fe.jpeg"
+    imgUrl: "https://www.vecernji.hr/media/img/a4/e1/6004585abd83846558fe.jpeg",
   },
   {
     ProductID: 75,
@@ -972,7 +1042,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 25,
     Discontinued: 0,
-    imgUrl:"https://kooglana.hr/wp-content/uploads/2020/12/Punjena-vjesalica.jpg"
+    imgUrl:
+      "https://kooglana.hr/wp-content/uploads/2020/12/Punjena-vjesalica.jpg",
   },
   {
     ProductID: 76,
@@ -985,7 +1056,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 20,
     Discontinued: 0,
-    imgUrl:"https://podravkaiovariations.azureedge.net/dce1f01e-63c3-11eb-8395-0242ac12007c/v/f2b1f6a6-64bc-11eb-b6c2-0242ac130010/1024x768-f2b21802-64bc-11eb-a115-0242ac130010.webp"
+    imgUrl:
+      "https://podravkaiovariations.azureedge.net/dce1f01e-63c3-11eb-8395-0242ac12007c/v/f2b1f6a6-64bc-11eb-b6c2-0242ac130010/1024x768-f2b21802-64bc-11eb-a115-0242ac130010.webp",
   },
   {
     ProductID: 77,
@@ -998,7 +1070,8 @@ const Product = [
     UnitsOnOrder: 0,
     ReorderLevel: 15,
     Discontinued: 0,
-    imgUrl:"http://zdravakuhinja.com/wp-content/uploads/2016/09/zdrava-pljeskavica-u-lepinji.jpg"
+    imgUrl:
+      "http://zdravakuhinja.com/wp-content/uploads/2016/09/zdrava-pljeskavica-u-lepinji.jpg",
   },
 ];
 

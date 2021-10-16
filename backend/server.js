@@ -27,13 +27,10 @@ app.use("/api/products", productRoutes);
 app.use("/api/orders", orderRoutes);
 app.use("/api/suppliers", supplierRoutes);
 
-if (process.env.PORT ==='production') {
+if (process.env.NODE_ENV ==='production') {
   
   app.use(express.static('frontend/bulid'));
-
-  app.get('*', (req,res) => {
-    res.sendFile(path.resolve(__dirname, 'frontend', 'bulid', 'index.html'));
-  })
+  
 }
 
 const PORT = process.env.PORT || 5000;
