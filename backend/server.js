@@ -12,9 +12,7 @@ const { Mongoose } = require("mongoose");
 
 connectDB();
 
-mongoose.connection.on('connected', () => {
-  console.log('Mongoose is connected!!')
-})
+
 
 const app = express();
 
@@ -33,8 +31,15 @@ app.use("/api/suppliers", supplierRoutes);
 
 if (process.env.NODE_ENV ==='production') {
   
-  app.use(express.static('frontend/bulid'));
+  app.use(express.static(__dirname + '../frontend/build'));
 
+  app.get('*', (req,res)=> {
+    res.sendFile(path.join(__dirname,  '../frontend/build/index.html'))
+  })
+}else {
+  app.get("/", (req,res)=> {
+    res.send("Api running")
+  }) 
 }
 
 const PORT = process.env.PORT || 5000;
