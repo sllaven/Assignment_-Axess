@@ -29,6 +29,7 @@ app.use("/api/products", productRoutes);
 app.use("/api/orders", orderRoutes);
 app.use("/api/suppliers", supplierRoutes);
 
+// Heroku code
 if (process.env.NODE_ENV ==='production') {
   
   app.use(express.static(__dirname + '../frontend/build'));
@@ -41,6 +42,8 @@ if (process.env.NODE_ENV ==='production') {
     res.send("Api running")
   }) 
 }
+// Heroku code end
+
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
